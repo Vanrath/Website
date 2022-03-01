@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+   rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <title>Food Templete</title> 
+</head>
+<body >
+ <!-- 1. header-menu -->
+    <header>
+        <div class="menu">
+            <div id="allmenu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li id="mark"><a href="#">MENU</a>
+                        <div class="drop-menu">      
+                                <a href="Japan.html">Japanese Food</a>
+                                <a href="china.html">Chinese Food</a>
+                                <a href="korean.html">Korean Food</a>        
+                        </div>
+                    </li>
+                    <li><a href="#con">CONTACTS</a></li>
+                    <li><a href="#ordernow">ORDER</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="icon"class="fas fa-bars"></div>
+        <div id="search" class="fas fa-search"></div>
+    </header>
+  <!-- heaer-menu -->
+  <!-- 2.search-form -->
+    <form action="" id="search-form">
+        <label for="search-box" class="fas fa-search"></label>
+        <input type="search" name="search-box" id="search-box" placeholder="search here.....">
+        <i class="fas fa-times" id="close"></i>
+    </form>
+  <!--search-form -->
+  <!-- 3.swiper-picture -->
+    <section class="home">
+        <div class="swiper mySwiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="write">
+                        <span>Sepcial food</span>
+                        <h3>Chiness Food</h3>
+                        <p>Best Quality Foods in Asia</p>
+                        <a href="order.html" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/China-F.png" alt="Chines">
+                    </div>           
+                </div>  
+                <div class="swiper-slide slide">
+                    <div class="write">
+                        <span>Sepcial food</span>
+                        <h3>Korean Food</h3>
+                        <p>Best Quality Foods in Asia</p>
+                        <a href="order.html" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/Korean-F.png" alt="Korea">
+                    </div>           
+                </div>      
+                <div class="swiper-slide slide">
+                    <div class="write">
+                        <span>Sepcial food</span>
+                        <h3>Japanes Food</h3>
+                        <p>Best Quality Foods in Asia</p>
+                        <a href="order.html" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/Japan-F.png" alt="Japan">
+                    </div>           
+                </div>  
+                <div class="swiper-pagination"></div>  
+            </div>               
+        </div>   
+    </section>
+  <!--swiper -->
+  <!-- 4.Today's Special Food -->
+    <section class="popular-menu">
+        <div class="text10">
+            <span>OUR FOOD</span>
+            <h4>TODAY'S SPECIALITY FOOD</h4>
+        </div>    
+            <div class="cover-menu">
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p1-food.png" >
+                        <div class="overlay">
+                            <div class="text5">Chinese Food</div>
+                        </div>
+                        <h4>Chinese Cuisine Chopsticks</h4>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$6.98</span>
+                    <a href="#" class="btn">Order</a>
+                </div>   
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p2-food.png">
+                        <div class="overlay">
+                            <div class="text5">Japanes Food</div>
+                        </div>
+                        <h4>Sushi</h4>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$3.00</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>   
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p3-food.png">
+                        <h4>Fried Chickent Fast Food</h4>
+                        <div class="overlay">
+                            <div class="text5">Korean Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$6.16</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>    
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p4.png">
+                        <h4>Sushi</h4>
+                        <div class="overlay">
+                            <div class="text5">Japanes Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$6.56</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>  
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p5.png">
+                        <h4>Japanes</h4>
+                        <div class="overlay">
+                            <div class="text5">Japanese Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$9.56</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>  
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p6.png">
+                        <h4>Sushi</h4>
+                        <div class="overlay">
+                            <div class="text5">Japanes Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$5.56</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>                
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p7-f.png">
+                        <h4>Sushi</h4>
+                        <div class="overlay">
+                            <div class="text5">Japanes Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$7.06</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>       
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p8-f.png">
+                        <h4>Rice</h4>
+                        <div class="overlay">
+                            <div class="text5">Korean Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$3.56</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>            
+                <div class="photo">
+                    <div class="picture">
+                        <img src="./images/p10.png" >
+                        <h4>Fried Chickent Fast Food</h4>
+                        <div class="overlay">
+                            <div class="text5">Korean Food</div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>$6.56</span>
+                    <a href="order.html" class="btn">Order</a>
+                </div>                
+            </div>
+    </section>
+  <!-- .Today's Special Food -->
+
+    <div class="container container4 aboutus-text " id="about">
+        <h2 class="mt-5"><br>About the restaurant, The History</h2>
+        <img src="./images/chef.jpg" alt="chef" class="mt-5 mb-5" width="50%" height="50%"> <br>
+     <!-- 5.About Us -->
+        <div class="aboutus-text">
+          <h3 class="font-weight-bold">
+            We are who we ARE
+          </h3>
+          <h3 class="font-italic">
+            With Passion for real, GOOD FOOD
+          </h3>
+          <p class="font-italic">
+            My name is Loeuk Vanrath and Thaileng We are students of the University Puthisastra. <br>
+            Our major is technical skills.
+          </p>
+        </div>
+     <!--About Us --> 
+    
+        <!------Contact-->
+        <section class="contact mt-sm-5" id="con">
+          <div class="content">
+            <h2>Contact us</h2>
+          </div>
+    
+          <div class="container container5">
+            <div class="contactInfo">
+              <div class="box">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/map-marker.png" /></div>
+                <div class="text">
+                  <h3>Address</h3>
+                  <p>Phnom-Penh, <br>Chom Chov, <br>89076</p>
+                </div>
+              </div>
+    
+              <div class="box">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" /></i></div>
+                <div class="text">
+                  <h3>Email</h3>
+                  <p>vanrath928@gmail.com</p>
+                </div>
+              </div>
+    
+              <div class="box">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/teacher-phone-call.png" />
+                </div>
+                <div class="text">
+                  <h3>Phone Number</h3>
+                  <p>+855 986 870</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="contactForm">
+              <form>
+                <h2>Send Message</h2>
+                <div class="inputbox">
+                  <span>Full Name</span>
+                  <input type="text" required>
+    
+                </div>
+    
+                <div class="inputbox">
+                  <span>Email</span>
+                  <input type="text" required>
+    
+                </div>
+    
+                <div class="inputbox">
+                  <span>Message</span>
+                  <textarea name="message" cols="20" rows="5" required></textarea>
+    
+                </div>
+    
+                <button type="submit">Send</button>
+    
+              </form>
+            </div>
+    
+          </div>
+        </section> 
+      </div>
+ <!-- 6.Order -->
+      <section class="order" id="ordernow">
+        <h3>Order now</h3>
+        <h3>free and fast</h3>
+        <form action="">
+            <div class="orderBox">
+                <div class="input">
+                    <label for="name">your name</label>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <label for="number">your number</label>
+                    <input type="number" placeholder="enter your number">
+                </div>
+                <div class="input">
+                    <label for="write">your order</label>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <label for="write1">additional food</label>
+                    <input type="test" placeholder="extra the food">
+                </div>
+            </div>
+            <div class="orderBox">
+                <div class="input">
+                    <label for="name1">how musch</label>
+                    <input type="text" placeholder="How many orders">
+                </div>
+                <div class="input">
+                    <label for="name3">date and time</label>
+                    <input type="datetime-local">
+                </div>      
+            </div>
+            <div class="orderBox">
+                <div class="input">
+                    <label for="name1">your address</label>
+                    <textarea name=""placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <label for="name1">your message</label>
+                    <textarea name=""placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </form>
+    </section>
+<!-- .Order -->
+<!-- 7.footer -->
+    <section class="footer">
+        <div class="footers">
+            <div class="footer-all">
+                <div class="location">
+                    <h6>Locations</h6>
+                    <a href="#"><i class="fas fa-map"></i>Cambodia</a>
+                </div>
+            </div>
+            <div class="footer-all">
+                <div class="contact-info">
+                    <h6>Quick Links</h6>
+                    <a href="#"><i class="fas fa-phone"></i>+855-556-001</a>
+                    <a href="#"><i class="fas fa-phone"></i>+855-456-234</a>
+                    <a href="#"><i class="fas fa-facebook-messenger"></i>vanrath928@gmai.com</a>
+                    <a href="#"><i class="fas fa-facebook-messenger"></i>thaileng.student@puthisastra.edu.kh</a>
+                    <a href="#"><i class="fas fa-location"></i>Phnom penh-400104</a>
+                </div>
+            </div>
+            <div class="footer-all">
+                <div class="quick-links">
+                    <h6>Quick Links</h6>
+                    <a href="#"><i class="fas fa-home"></i>Home</a>
+                    <a href="#"><i class="fas fa-book"></i>Menu</a>
+                    <a href="#"><i class="fas fa-person-booth"></i>About us</a>
+                    <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                    <a href="#"><i class="fas fa-motorcycle"></i>Order</a>
+                </div>
+            </div>
+            <div class="footer-all">
+                <div class="quick-links">
+                    <h6>Follows US</h6>
+                    <a href="#"><i class="fas fa-facebook-square"></i>Facebook</a>
+                    <a href="#"><i class="fas fa-twitter"></i>Twiter</a>
+                    <a href="#"><i class="fas fa-instagram"></i>instragram</a>
+                </div>
+            </div>
+
+        </div> 
+    </section>
+<!-- .footer -->
+    
+    
+    
+    
+
+   
+    
+    
+     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="food.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    
+</body>
+</html>
